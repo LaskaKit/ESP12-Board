@@ -35,12 +35,11 @@ Všechny moduly najdete na [https://www.laskarduino.cz/esp-a-wemos/](https://www
 ## PROGRAMOVÁNÍ
 V Arduino IDE nainstalujte podporu ESP8266,
 
-
-![LASKKIT ESP-12 board Arduino IDE](https://github.com/LasKKit/ESP12-Board/blob/main/img/LASKKIT_ESP-12_board_Generic_ESP8266_Module.png)
+![LASKKIT ESP-12 board Arduino IDE](https://github.com/LasKKit/ESP12-Board/blob/main/img/LASKKIT_ESP-12_board_Preference.jpg)
 
 [https://arduino.esp8266.com/stable/package_esp8266com_index.json](https://arduino.esp8266.com/stable/package_esp8266com_index.json)
 
-![LASKKIT ESP-12 board Arduino IDE](https://github.com/LasKKit/ESP12-Board/blob/main/img/LASKKIT_ESP-12_board_Preference.jpg)
+![LASKKIT ESP-12 board Arduino IDE](https://github.com/LasKKit/ESP12-Board/blob/main/img/LASKKIT_ESP-12_board_Generic_ESP8266_Module.png)
 
 Pro nahrání kódu do LASKKIT ESP-12 board v Arduino IDE je nutné přepnout ESP8266 do bootloader módu.
 
