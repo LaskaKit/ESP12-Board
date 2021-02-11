@@ -36,11 +36,11 @@ All modules are available on [https://www.laskarduino.cz/esp-a-wemos/](https://w
 ## PROGRAMMING
 Install the support of ESP8266 in Arduino IDE
 
-![LASKKIT ESP-12 board Arduino IDE](https://github.com/LasKKit/ESP12-Board/blob/main/img/LASKKIT_ESP-12_board_Generic_ESP8266_Module.png)
+![LASKKIT ESP-12 board Arduino IDE](https://github.com/LasKKit/ESP12-Board/blob/main/img/LASKKIT_ESP-12_board_Preference.jpg)
 
 [https://arduino.esp8266.com/stable/package_esp8266com_index.json](https://arduino.esp8266.com/stable/package_esp8266com_index.json)
 
-![LASKKIT ESP-12 board Arduino IDE](https://github.com/LasKKit/ESP12-Board/blob/main/img/LASKKIT_ESP-12_board_Preference.jpg)
+![LASKKIT ESP-12 board Arduino IDE](https://github.com/LasKKit/ESP12-Board/blob/main/img/LASKKIT_ESP-12_board_Generic_ESP8266_Module.png)
 
 Before the uploading of code, you have to switch the ESP8266 to bootloader mode.
 
