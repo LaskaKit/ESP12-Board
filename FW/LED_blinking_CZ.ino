@@ -16,33 +16,40 @@
  * Po nahrání kódu stiskněte tlačítko RESET a uvolněte, kód se spustí
  */
 
-void setup() {
+#define LED 2
+
+void setup() 
+{
   Serial.begin(115200); // inicializace Serial, 115200 Bd
-  pinMode(2, OUTPUT); // inicializace LED na ESP-12
+  pinMode(LED, OUTPUT); // inicializace LED na ESP-12
 
 }
 
-void loop() {
+void loop() 
+{
  Serial.println("Blikani LED");
   
-  for(i=0; i < 3; i++) {
-    digitalWrite(led, HIGH);
+  for(int i=0; i < 3; i++) 
+  {
+    digitalWrite(LED, HIGH);
     delay(100);
-    digitalWrite(led, LOW);
+    digitalWrite(LED, LOW);
     delay(100);
   }
   
   delay(500);
 
-  for(i=0; i < 1; i++) {
-    for(j=0; j <= PWMRANGE;){
-      analogWrite(led, j);
+  for(int i=0; i < 1; i++) 
+  {
+    for(int j=0; j <= PWMRANGE;){
+      analogWrite(LED, j);
       delay(1);
       j += 1;
     }
     delay(500);
-    for(j=PWMRANGE; j >= 0;){
-      analogWrite(led, j);
+    for(int j=PWMRANGE; j >= 0;)
+    {
+      analogWrite(LED, j);
       delay(1);
       j -= 1;
     }
