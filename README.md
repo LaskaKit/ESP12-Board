@@ -15,7 +15,7 @@ The quiescent current of HT7833 is only 4 uA. The combination with low power con
 ![LASKKIT ESP-12 board deepsleep current](https://github.com/LasKKit/ESP12-Board/blob/main/img/LASKKIT_ESP-12_board_deepsleep.jpg)
 
 ## ADC
-ADC input of ESP8266 is connected through voltage divider to A0 pin (Vadc1). The maximum input voltage of ESP8266 may be up to 1V. Thanks the built-in votlage divider, you may measure up to 4.2V (with R7 = 320k; R8 = 100k).
+ADC input of ESP8266 is connected through voltage divider to A0 pin (Vadc1). The maximum input voltage of ESP8266 may be up to 1V. Thanks the built-in votlage divider, you may measure up to 4.3V (with R7 = 330k; R8 = 100k).
 
 The formula how to calculate the input voltage is below.
 
