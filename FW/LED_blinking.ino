@@ -16,31 +16,40 @@
  * After the uploading, push the "RESET button and release it to achieve the leaving of bootloader
  */
 
-void setup() {
-  Serial.begin(115200); // initialization of Serial, 115200 Bd
-  pinMode(2, OUTPUT); // initialization of LED na ESP-12
+#define LED 2
+
+void setup() 
+{
+  Serial.begin(115200); // inicializace Serial, 115200 Bd
+  pinMode(LED, OUTPUT); // inicializace LED na ESP-12
+
 }
 
-void loop() {
-  Serial.println("LED is blinking");
-  for(i=0; i < 3; i++) {
-    digitalWrite(led, HIGH);
+void loop() 
+{
+ Serial.println("LED blinking");
+  
+  for(int i=0; i < 3; i++) 
+  {
+    digitalWrite(LED, HIGH);
     delay(100);
-    digitalWrite(led, LOW);
+    digitalWrite(LED, LOW);
     delay(100);
   }
   
   delay(500);
 
-  for(i=0; i < 1; i++) {
-    for(j=0; j <= PWMRANGE;){
-      analogWrite(led, j);
+  for(int i=0; i < 1; i++) 
+  {
+    for(int j=0; j <= PWMRANGE;){
+      analogWrite(LED, j);
       delay(1);
       j += 1;
     }
     delay(500);
-    for(j=PWMRANGE; j >= 0;){
-      analogWrite(led, j);
+    for(int j=PWMRANGE; j >= 0;)
+    {
+      analogWrite(LED, j);
       delay(1);
       j -= 1;
     }
