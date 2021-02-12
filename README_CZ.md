@@ -15,7 +15,7 @@ Tento stabilizátor má vlastní spotřebu pouhé 4 uA. V kombinaci s nízkou vl
 ![LASKKIT ESP-12 board deepsleep current](https://github.com/LasKKit/ESP12-Board/blob/main/img/LASKKIT_ESP-12_board_deepsleep.jpg)
 
 ## ADC
-ADC vstup ESP8266 je připojen přes dělič napětí na pin A0 (Vadc1). maximální vstupní napětí ESP8266 může být až 1V, díky děliči napětí tak můžete měřit napětí až 4,2V (při R7 = 320k; R8 = 100k).
+ADC vstup ESP8266 je připojen přes dělič napětí na pin A0 (Vadc1). maximální vstupní napětí ESP8266 může být až 1V, díky děliči napětí tak můžete měřit napětí až 4,3V (při R7 = 330k; R8 = 100k).
 
 Níže vidíte vzorec, podle kterého vypočítáte napětí na pinu A0.
 Vadc1 = napětí na A0
