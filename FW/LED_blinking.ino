@@ -23,8 +23,28 @@ void setup() {
 
 void loop() {
   Serial.println("LED is blinking");
-  digitalWrite(2, LOW);
+  for(i=0; i < 3; i++) {
+    digitalWrite(led, HIGH);
+    delay(100);
+    digitalWrite(led, LOW);
+    delay(100);
+  }
+  
   delay(500);
-  digitalWrite(2, HIGH);
+
+  for(i=0; i < 1; i++) {
+    for(j=0; j <= PWMRANGE;){
+      analogWrite(led, j);
+      delay(1);
+      j += 1;
+    }
+    delay(500);
+    for(j=PWMRANGE; j >= 0;){
+      analogWrite(led, j);
+      delay(1);
+      j -= 1;
+    }
+  delay(500);
+  }
   delay(500);
 }
