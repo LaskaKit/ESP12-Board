@@ -60,3 +60,8 @@ To provedete následujícím postupem
 LASKKIT ESP-12 board is open-hardware, schéma i podklady pro výrobu najdete na tomto githubu.
 
 K dispozici je i stavebnice, kterou můžete zakoupit na laskarduino.cz
+
+[LASKKIT ESP-12 board kit](https://www.laskarduino.cz/laskkit-esp-12-board)
+
+[LASKKIT ESP-12 board plošný spoj](https://www.laskarduino.cz/laskkit-esp-12-board--plosny-spoj)
+
