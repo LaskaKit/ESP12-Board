@@ -14,6 +14,9 @@
  * Uvolněte tlačítko "RESET" a poté i "FLASH"
  * Klikněte na tlačítko "Nahrát" v Arduino IDE
  * Po nahrání kódu stiskněte tlačítko RESET a uvolněte, kód se spustí
+ *
+ *  LASKKIT ESP-12 board kit: https://www.laskarduino.cz/laskkit-esp-12-board
+ *  LASKKIT ESP-12 board plosny spoj: https://www.laskarduino.cz/laskkit-esp-12-board--plosny-spoj
  */
 
 #define LED 2
