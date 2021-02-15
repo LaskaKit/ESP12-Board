@@ -14,6 +14,9 @@
  * Release the "RESET" button and after that also "FLASH" button, ESP-12 is in bootloader
  * Upload your code by "Upload" button in Arduino IDE
  * After the uploading, push the "RESET button and release it to achieve the leaving of bootloader
+ *
+ *  LASKKIT ESP-12 board kit: https://www.laskarduino.cz/laskkit-esp-12-board
+ *  LASKKIT ESP-12 board plosny spoj: https://www.laskarduino.cz/laskkit-esp-12-board--plosny-spoj
  */
 
 #define LED 2
