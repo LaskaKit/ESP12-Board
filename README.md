@@ -56,3 +56,7 @@ Follow these steps
 LASKKIT ESP-12 board is open-hardware, the schematic and manufacturing data are available on this github.
 
 You may enable the assembly kit which is available on laskarduino.cz
+
+[LASKKIT ESP-12 board kit](https://www.laskarduino.cz/laskkit-esp-12-board)
+
+[LASKKIT ESP-12 board bare PCB](https://www.laskarduino.cz/laskkit-esp-12-board--plosny-spoj)
