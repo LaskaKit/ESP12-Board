@@ -10,7 +10,7 @@ Pokud tedy hledáte kompatibilní desku a zároveň chcete šetřit energii, pak
 
 LASKAKIT ESP-12 board obsahuje, kromě ESP8266 v modulu [ESP-12](https://www.laskarduino.cz/ai-thinker-esp-12e-esp8266-wifi-modul/), velmi úsporný regulátor [HT7833](https://www.laskarduino.cz/holtek-ht7833-3-3v-0-5a-stabilizator--sot-89/), který stabilizuje napětí z 5 V na 3.3 V.  
   
-Tento stabilizátor má vlastní spotřebu pouhé 4 uA. V kombinaci s nízkou vlastní spotřebou ESP8266 v tzv. režimu deep-sleep, je celková spotřeba několik lehce přes 20 uA. Stačí zapájet pájecí most “SLEEP”.
+Tento stabilizátor má vlastní spotřebu pouhé 4 uA. V kombinaci s nízkou vlastní spotřebou ESP8266 v tzv. režimu deep-sleep, je celková spotřeba lehce přes 20 uA. Stačí zapájet pájecí most “SLEEP”.
 
 ![LASKAKIT ESP-12 board deepsleep current](https://github.com/LasKKit/ESP12-Board/blob/main/img/LASKKIT_ESP-12_board_deepsleep.jpg)
 
